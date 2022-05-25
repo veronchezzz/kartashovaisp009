@@ -1,0 +1,410 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2 ?family=Open+Sans&family=Oswald&display=swap');
+
+.header{
+    width: 1920px;
+    height: 800px;
+    background-image: url(..//25.05/img/Rectangle\ 2.png);
+    margin: auto;
+}
+a{
+   text-decoration: none;
+}
+
+li{
+   list-style: none;
+}
+
+ul{
+   display: flex;
+}
+
+.menu_link{
+   font-size: 14px;
+   font-family: 'Open Sans', sans-serif;
+   color:white;
+   display: flex;
+   margin-right: 25px;
+   margin-top: 31px;
+
+}
+
+.menu_list-item:not(:last-child){
+   margin-right: 25px;
+
+}
+
+.logo{
+    display: flex; 
+    background: rgba(0, 91, 193, 0.6);;
+
+}
+.logo_link{
+    margin-left: 40px;
+    margin-top: 11px;
+}
+
+.menu_list{
+    margin-left: 555px;
+
+}
+.kvadrat{
+   width: 444px;
+   height: 725px;
+   margin-left: 405px;
+   background: rgba(0, 91, 193, 0.6);
+}
+
+.info{
+   width: 635px;
+   height: 317px;
+   display: block;
+   margin-top: -500px;
+   margin-left: 525px;
+   color:white;
+  
+
+}
+
+h1{
+   font-family: 'Oswald', sans-serif; 
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 71px;
+   letter-spacing: 0.01em;
+   width: 750px;
+}
+.info>p{
+   width: 445px;
+   height: 44px;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 22px;
+   margin-top: 40px;
+}
+
+.menu_block{
+   width: 160px;
+   height: 51px;
+   margin-top: -65px;
+   margin-left: 525px;
+   border: 1px solid white;
+}
+
+.menu_knock{
+   color: white;
+   display: flex;
+   width: 79px;
+   height: 22px;
+   margin-top: 15px;
+   margin-left: 41px;
+}
+
+.container{
+   width: 1110px;
+   margin: auto
+}
+
+.slider{
+   margin-top: 150px;
+
+}
+.big {
+   width: 55px;
+   height: 55px;
+   border: 2px solid #005BC1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 1000px;
+   margin-top: -40px;
+
+
+}
+
+.small{
+   width: 55px;
+   height: 55px;
+   border: 2px solid #005BC1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 1055px;
+   margin-top: -55px;
+}
+.slider>h2{
+   display: block;
+   margin-left: 150px;
+   margin-top: -25px;
+   font-family: 'Oswald', sans-serif; 
+   font-style: bold;
+   font-weight: 400;
+   font-size: 30px;
+}
+
+.olimp {
+   width: 540px;
+   height: 400px;
+   position: relative;
+   background-image: url(..//25.05/img/Rectangle\ 4.png);
+   margin-top: 70px;
+
+
+}
+
+.blabla{
+   position: absolute;
+   width: 250px;
+   height: 110px;
+   margin-top: 255px;
+   margin-left: 255px;
+   background-color: white;
+}
+
+.blabla>h3{
+   margin: 20px 25px; 
+   font-family: 'Oswald', sans-serif; 
+   font-style: bold;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+}
+.blabla>p{
+   margin-top: -15px;
+   margin-left: 25px;
+   font-family:'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 19px;
+   color: #343434;
+   
+}
+
+.oli{
+   width: 540px;
+   height: 400px;
+   position: relative;
+   background-image: url(..//25.05/img/Rectangle\ 4\ \(1\).png);
+   margin-left: 600px;
+   margin-top: -400px;
+   display: flex;
+}
+
+.ork{
+   
+   width: 250px;
+   height: 110px;
+   margin-top: 255px;
+   margin-left: 255px;
+   background-color: white;
+}
+
+.ork>h4{
+   margin: 20px 25px; 
+   font-family: 'Oswald', sans-serif; 
+   font-style: bold;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+}
+
+.ork>p{
+   margin-top: -15px;
+   margin-left: 25px;
+   font-family:'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 19px;
+   color: #343434;
+   
+}
+
+.catalog{
+   margin-top: 150px;
+}
+
+.catalog__header img {
+   object-fit: contain;
+}
+
+.catalog__header {
+   display: flex;
+   align-items: center;
+}
+
+.catalog__header>h5{
+   font-family: 'Oswald', sans-serif;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 44px;
+   letter-spacing: 0.05em;
+   text-transform: uppercase;
+   margin-left: 40px;
+}
+
+.first{
+   color: #005BC1;
+   border-bottom: 4px solid #005BC1;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 36px;
+}
+
+.catalog__text {
+   display: flex;
+   margin-left: 450px;
+   margin-top: 70px;
+
+}
+
+.catalog__text>p{
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 36px;
+   margin-left: 47px;
+}
+
+.static{
+   margin-top: 50px;
+   width: 350px;
+   height: 300px;
+   background-image: url(..//25.05/img/приборы.png);
+   display: flex;
+   position: relative;
+}
+
+.kont{
+    background-image: url(..//25.05/img/конртоллеры2.jpg);
+    width: 350px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 400px;
+    display: flex;
+    position: relative;
+}
+
+.aks{
+    background-image: url(..//25.05/img/аксессуары.png);
+    width: 350px;
+    height: 300px;
+    margin-top: -300px;
+    margin-left: 800px;
+    display: flex;
+    position: relative;
+}
+
+.static__text{
+    width: 265px;
+    height: 86px;
+    margin-top: 199px;
+    margin-left: 85px;
+    background-color: #005BC1;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.static__text>p{
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+
+.kont__text{
+    width: 265px;
+    height: 86px;
+    margin-top: 199px;
+    margin-left: 85px;
+    background-color: #005BC1;
+    color: white;
+}
+
+.kont__text>p{
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 21px;
+}
+
+.aks__text{
+    width: 265px;
+    height: 86px;
+    margin-top: 199px;
+    margin-left: 85px;
+    background-color: #005BC1;
+    color: white;
+}
+
+.aks__text>p{
+    font-style: normal;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 21px;
+}
+
+.rent{
+    margin-top: 50px;
+}
+
+.rent__header img {
+    object-fit: contain;
+}
+
+.rent__header {
+    display: flex;
+    align-items: center;
+      margin-top: -150px;
+   }
+
+   .rant{
+       font-family: 'Oswald', sans-serif;
+       font-weight: 400;
+       font-size: 30px;
+       line-height: 44px;
+       letter-spacing: 0.05em;
+       text-transform: uppercase;
+       margin-left: 40px;
+   }
+   
+   .text{
+       width: 380px;
+       height: 175px;
+       font-family: 'Open Sans', sans-serif;
+       font-style: normal;
+       font-weight: 300;
+       font-size: 18px;
+       line-height: 25px;
+       color: #343434;
+       margin-top: 450px;
+       margin-left: -550px;
+   
+   }
